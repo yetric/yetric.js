@@ -1,0 +1,13 @@
+export const onNewUser = () => {};
+export const onNewSession = () => {};
+export const onNthVisit = (nthVisit) => {};
+export const onCounterEnd = (timeSeconds) => {};
+export const onBounce = (probability) => {};
+export const onDeepVisit = (depth = 10) => {};
+export const onPageEnd = (threshold = 0) => {};
+export const onPageScroll = (length) => {};
+export const onTimeOnPage = (timeSeconds) => {};
+export const onLanguage = (locale) => {};
+export const onCountry = (countryCode) => {};
+export const onLocation = (point, radiusMeters) => {};
+export const onBounds = (northEastPoint, southWestPoint) => {};
